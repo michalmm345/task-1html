@@ -184,3 +184,49 @@ h3{
 .service__item{
     width: 30%;
 }
+.contact-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    width: 300px;
+    background-color: rgb(255, 237, 248);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contact-form {
+    width: 300px;
+    background-color: rgb(255, 237, 248);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    background-color: rgb(241, 207, 227);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: rgb(225, 145, 203);
+}
